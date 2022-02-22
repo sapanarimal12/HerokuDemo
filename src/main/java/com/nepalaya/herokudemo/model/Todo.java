@@ -22,7 +22,6 @@ public class Todo implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long id;
 
-    @Id
     @Column(name = "DESCRIPTION", nullable = false)
     private  String description;
 
